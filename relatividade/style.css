@@ -2,7 +2,29 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: larger;
+    color: aliceblue;
+}
 header {
  align-items: center;
  text-align: center;
+}
+img{
+    width: 900px;
+    height: 900px;
+
+}
+body{
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    margin-left: 800px;
+    background-color: rgb(241, 241, 240);
+    width: 900px;
+    border-radius: 2rem;
 }
