@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="atomo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>teoria da relatividade</title>
+    <title>2 lei da dinamica</title>
 </head>
-<body id="principal">
+<body onload="inclui_nome()">
     <header>
         <img src="atomo.png" alt="maça dentro de um arco de atomo" class="logo">
         <h1>2°lei de newton</h1>
     </header>
-    <nav>
-        <a href="caucule.html">caucule aqui</a>
-    </nav>
+   
      <main>
         <section>
+           <h1>olá  <p id="marcacao_nome"></p></h1>
         <p>A segunda lei de Newton ou princípio fundamental da dinâmica compõe o conjunto de leis de Newton que fundamentam a Mecânica Clássica. Observe o enunciado dessa lei:
 
             A força resultante que age sobre um corpo é igual ao produto da massa do corpo pela sua aceleração.|1|
@@ -38,13 +41,56 @@
             
             Veja mais sobre "Segunda lei de Newton" em <a href=" https://brasilescola.uol.com.br/fisica/segunda-lei-newton.html">brasil escola.com</a></p>
         </section>
+
+        <section>
+
+            <h1>exercicios</h1>
+                
+
+
+            <form>
+                <h3>Questão 1</h3>
+                <input type="radio" name="quest_1" value="correta">Resposta 1 <br>
+                <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_1" value="errada">Resposta 1 <br>
+                <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+        
+                <h3>Questão 2</h3>
+                <input type="radio" name="quest_2" value="correta">Resposta 1 <br>
+                <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_2" value="errada">Resposta 1 <br>
+                <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+        
+                <h3>Questão 3</h3>
+                <input type="radio" name="quest_3" value="correta">Resposta 1 <br>
+                <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+                <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+        
+                <h3>Questão 4</h3>
+                <input type="radio" name="quest_4" value="correta">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+        
+                <p id="quantos_acertos"></p>
+                    <button type="button" onclick="funcao_resposta()">Responder</button>
+            </form>
+
+
+        </section>
        
      </main>
+     <nav>
+        <a href="caucule.html">caucule aqui</a>
+    </nav>
 
      <footer>
-        <h1>esse site utiliza icons do flat icon</h1>
-    
-       <a href="https://www.flaticon.com/br/icones-gratis/newton" title="newton ícones">logo maça Newton ícones criados por Freepik - Flaticon</a>
+       
      </footer>
      <script src="script.js"></script>
 </body>
