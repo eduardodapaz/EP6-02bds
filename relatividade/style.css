@@ -108,7 +108,9 @@ nav a{
 }
 
 button{
-    background: transparent;
+    background:transparent;
     color: aliceblue;
-    width: 10px;
+    width: 50%;
+    height: 40px;
+    font-size: xx-large;
 }
