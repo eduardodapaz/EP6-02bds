@@ -119,16 +119,15 @@ function mudar(objeto, imagem) {//funcao que altera a imagem do index rincipal
             document.getElementById("resp_errada_9").innerHTML = "Errada, De acordo com o cálculo, o deslocamento sofrido pelo corpo é de 200 m"//mensagem que aparece quando esta errada junto com a correcao
     
         }
-    
-        if(resp10.value == "30"){
+
+        if(resp10.value == "30N"){ 
             document.getElementById("resp_correta_10").innerHTML = "Correta!"//resposta para mensagem correta
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Errada, pois Fr=30N "//mensagem que aparece quando esta errada junto com a correcao
+            document.getElementById("resp_errada_10").innerHTML = "Errada,pois Fr=30N "//mensagem que aparece quando esta errada junto com a correcao
     
         }
-    
     
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";//comfiguracao que conta o numero de acertos
 
