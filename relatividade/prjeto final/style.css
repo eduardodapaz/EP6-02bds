@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background: rgb(195,34,178);
+    background: linear-gradient(0deg, rgba(195,34,178,1) 0%, rgba(146,45,253,1) 100%);
+    display: flex;
+   align-items: center;
+   text-align: center;
+   
+   
+
+
+   
+}
+.cabesalho{
+    margin-top: 
+}
+.pequisa{
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.lupa{
+     width: 900px;
+     height: 50px;
+}
+
+ion-icon{
+    color: rgb(0, 0, 65);
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(0deg, rgb(63, 34, 195) 0%, rgb(140, 0, 255) 100%);
+    
+}
